@@ -53,7 +53,7 @@ outliers.rm(df$read)
 
 
 #убеждаемся,что выбросов больше нет
-ggplot(df,aes(hon,math))+geom_boxplot()
+ggplot(df,aes(hon,read))+geom_boxplot()
 
 
 #строим график рассеивания, по оси X -баллы read,Y-баллы math, красным цветом - female,зеленым -  male, делаем разбивку графика по показателю hon:
