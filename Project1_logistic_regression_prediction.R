@@ -17,8 +17,7 @@ df$gender <- as.factor(df$gender)
 df$hon <- as.factor(df$hon)
 
 #проверим, есть ли пустые значения
-apply(df,2,is.na)
-which((sapply(df,is.na)==T))
+apply(df,2,function(x) sum(c(is.na(x)==T)))
 #пропущенных значений нет
 
 #посмотрим на матрицу взаимосвязи переменных:
