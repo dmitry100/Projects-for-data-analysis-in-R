@@ -1,10 +1,10 @@
 # Projects-for-data-analysis-in-R
 My projects for data analysis in R
-В данном разделе находятся мои проекты по анализу данных.
+In this section you will find my projects on data analysis.
           
                                               PROJECT 1		
-PROJECT 1 - предсказание значения получит ли студент красный диплом или нет, с помощью логистической регрессии и ROC кривой.
-Были внесены изменения в модель: удалил выбросы из незасимой переменной, с помощью step выбрал оптимальную модель для предсказания. За счет изменений улучшилась эффективность предсказанной модели. Для тестовых данных этот прирост составил 4 %: с 74% до 78%.
+PROJECT 1-predicting the value of whether a student will get a red diploma or not, using logistic regression and a ROC curve.
+Changes were made to the model: removed outliers from the independent variable, and used step to select the optimal model for prediction. The changes improved the efficiency of the predicted model. For test data, this increase was 4 %: from 74% to 78%.
 
 
                                                PROJECT 2 
